@@ -1,0 +1,24 @@
+body {
+    max-width: auto;
+    margin: auto;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    /* margin: 2rem; */
+    padding-top: 4rem;
+    font-size: 1.4rem;
+}
+
+button {
+    padding: 2rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+}
+
+img {
+    width: 400px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}

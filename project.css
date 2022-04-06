@@ -11,7 +11,7 @@ button {
     padding: .5rem;
     font-family: 'Press Start 2P', cursive;
     font-size: 2rem;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
 }
 
 img {

@@ -17,7 +17,7 @@ function getThatPokemon(data) {
     pokemon_name_html + pokemon_picture_html + pokemon_type_html;
 
   outputElement.innerHTML = pokemon_html;
-  console.log("first: ", pokemon);
+  // console.log("first: ", pokemon);
 }
 
 let pokeButton = document.getElementById("theButton");
@@ -42,10 +42,13 @@ function thisIsHowWeDo() {
     .then((response) => response.json())
     .then((results) => {
       pokemon = results;
-      console.log(pokemon);
+      // console.log(pokemon);
     })
     .then(getThatPokemon);
 }
+
+const currentYear = new Date().getFullYear();
+document.getElementById("current-year").textContent = currentYear;
 
 thisIsHowWeDo();
 
